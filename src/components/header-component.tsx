@@ -15,9 +15,9 @@ import ProfilePicture from "@/assets/profilepic.png"
 export function HeaderComponent() {
   return (
     <div className="flex flex-row gap-4 w-full">
-      <img src={ProfilePicture} alt="Profile Picture"className="border rounded-md w-42 h-40" />
+      <img src={ProfilePicture} alt="Profile Picture"className="rounded-md w-42 h-40" />
 
-      <div className="py-2 border w-full">
+      <div className="py-2 w-full">
         <div className="mb-1 flex flex-row items-center justify-between">
           <h1 className="font-bold text-2xl">Suna Rintarou</h1>
           <ModeToggle />
