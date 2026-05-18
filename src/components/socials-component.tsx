@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import {
   ArrowRight,
   Calendar,
@@ -70,15 +71,15 @@ export default function SocialsComponent() {
               const Icon = social.icon;
 
               return (
-                <a
+                <Link
                   key={social.name}
-                  href={social.href}
+                  to={social.href}
                   className="group flex items-center gap-3 text-accent-foreground transition-colors hover:text-muted-foreground"
                 >
                   <Icon size={20} />
 
                   <span className="text-xs font-medium">{social.name}</span>
-                </a>
+                </Link>
               );
             })}
           </div>
@@ -90,9 +91,9 @@ export default function SocialsComponent() {
             const Icon = contact.icon;
 
             return (
-              <a
+              <Link
                 key={contact.title}
-                href={contact.href}
+                to={contact.href}
                 className={`group flex items-start justify-between ${
                   contact.bordered ? "border-b dark:border-white/10 pb-4" : ""
                 }`}
@@ -115,7 +116,7 @@ export default function SocialsComponent() {
                   size={16}
                   className="text-accent-foreground transition-transform group-hover:translate-x-1"
                 />
-              </a>
+              </Link>
             );
           })}
         </div>
