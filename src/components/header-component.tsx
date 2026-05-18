@@ -1,4 +1,3 @@
-import React from "react";
 import { ModeToggle } from "./mode-toggle";
 import { MapPin, Trophy } from "lucide-react";
 
@@ -8,14 +7,17 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
-import { Button } from "./ui/button";
 
-import ProfilePicture from "@/assets/profilepic.png"
+import ProfilePicture from "@/assets/profilepic.png";
 
 export function HeaderComponent() {
   return (
     <div className="flex flex-row gap-4 w-full">
-      <img src={ProfilePicture} alt="Profile Picture"className="rounded-md w-42 h-40" />
+      <img
+        src={ProfilePicture}
+        alt="Profile Picture"
+        className="rounded-md w-42 h-40"
+      />
 
       <div className="py-2 w-full">
         <div className="mb-1 flex flex-row items-center justify-between">
@@ -39,10 +41,8 @@ export function HeaderComponent() {
 
           <div>
             <DropdownMenu>
-              <DropdownMenuTrigger>
-                <Button variant="outline">
-                  <Trophy size={16} /> Achievements
-                </Button>
+              <DropdownMenuTrigger className="flex flex-row items-center gap-1 text-sm bg-accent px-2 py-1 rounded-md cursor-pointer">
+                <Trophy size={16} /> Achievements
               </DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem>Hackathon 1</DropdownMenuItem>
