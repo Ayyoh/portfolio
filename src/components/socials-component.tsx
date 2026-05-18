@@ -16,12 +16,12 @@ export default function SocialsComponent() {
     },
     {
       name: "GitHub",
-      href: "#",
+      href: "https://github.com/Ayyoh",
       icon: Github,
     },
     {
       name: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/sunaa.razi/",
       icon: Instagram,
     },
   ];
@@ -44,7 +44,7 @@ export default function SocialsComponent() {
   ];
 
   return (
-    <section className="w-full border-b dark:border-none dark:bg-[#111111] text-accent-foreground">
+    <section className="w-full dark:border-none dark:bg-[#111111] text-accent-foreground">
       <div className="flex w-full items-start justify-between gap-20 p-6">
         {/* Membership */}
         <div className="w-55 space-y-2">
