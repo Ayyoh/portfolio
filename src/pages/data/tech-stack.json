@@ -7,7 +7,9 @@
     { "name": "Tailwind CSS" },
     { "name": "TanStack React Router" },
     { "name": "TanStack React Query" },
-    { "name": "TanStack React Form" }
+    { "name": "TanStack React Form" },
+    { "name": "Vite" },
+    { "name": "Prettier" }
   ],
 
   "backend": [
@@ -18,7 +20,8 @@
     { "name": "MongoDB" },
     { "name": "REST" },
     { "name": "OAuth" },
-    { "name": "Better Auth" }
+    { "name": "Better Auth" },
+    { "name": "JWT" }
   ],
 
   "devops": [

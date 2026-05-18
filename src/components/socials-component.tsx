@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import {
   ArrowRight,
   Calendar,
@@ -16,12 +17,12 @@ export default function SocialsComponent() {
     },
     {
       name: "GitHub",
-      href: "#",
+      href: "https://github.com/Ayyoh",
       icon: Github,
     },
     {
       name: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/sunaa.razi/",
       icon: Instagram,
     },
   ];
@@ -44,7 +45,7 @@ export default function SocialsComponent() {
   ];
 
   return (
-    <section className="w-full border-b dark:border-none dark:bg-[#111111] text-accent-foreground">
+    <section className="w-full dark:border-none dark:bg-[#111111] text-accent-foreground">
       <div className="flex w-full items-start justify-between gap-20 p-6">
         {/* Membership */}
         <div className="w-55 space-y-2">
@@ -70,15 +71,15 @@ export default function SocialsComponent() {
               const Icon = social.icon;
 
               return (
-                <a
+                <Link
                   key={social.name}
-                  href={social.href}
+                  to={social.href}
                   className="group flex items-center gap-3 text-accent-foreground transition-colors hover:text-muted-foreground"
                 >
                   <Icon size={20} />
 
                   <span className="text-xs font-medium">{social.name}</span>
-                </a>
+                </Link>
               );
             })}
           </div>
@@ -90,9 +91,9 @@ export default function SocialsComponent() {
             const Icon = contact.icon;
 
             return (
-              <a
+              <Link
                 key={contact.title}
-                href={contact.href}
+                to={contact.href}
                 className={`group flex items-start justify-between ${
                   contact.bordered ? "border-b dark:border-white/10 pb-4" : ""
                 }`}
@@ -115,7 +116,7 @@ export default function SocialsComponent() {
                   size={16}
                   className="text-accent-foreground transition-transform group-hover:translate-x-1"
                 />
-              </a>
+              </Link>
             );
           })}
         </div>
