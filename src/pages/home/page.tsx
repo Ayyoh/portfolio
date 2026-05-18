@@ -1,5 +1,7 @@
 import { AboutComponent } from "#/components/about-component";
+import FooterComponent from "#/components/footer-component";
 import { HeaderComponent } from "#/components/header-component";
+import SocialsComponent from "#/components/socials-component";
 import TechStackComponent from "#/components/tech-stack";
 import { ThemeProvider } from "#/components/theme-provider";
 
@@ -10,6 +12,8 @@ export default function HomePage() {
         <HeaderComponent />
         <AboutComponent />
         <TechStackComponent />
+        <SocialsComponent />
+        <FooterComponent />
       </div>
     </ThemeProvider>
   );
