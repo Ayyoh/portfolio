@@ -1,0 +1,42 @@
+{
+  "frontend": [
+    { "name": "JavaScript" },
+    { "name": "TypeScript" },
+    { "name": "React" },
+    { "name": "React Native" },
+    { "name": "Tailwind CSS" },
+    { "name": "TanStack React Router" },
+    { "name": "TanStack React Query" },
+    { "name": "TanStack React Form" }
+  ],
+
+  "backend": [
+    { "name": "Node.js" },
+    { "name": "Express.js" },
+    { "name": "Hono.js" },
+    { "name": "PostgreSQL" },
+    { "name": "MongoDB" },
+    { "name": "REST" },
+    { "name": "OAuth" },
+    { "name": "Better Auth" }
+  ],
+
+  "devops": [
+    { "name": "AWS" },
+    { "name": "Azure" },
+    { "name": "GitHub Actions" },
+    { "name": "Docker" },
+    { "name": "Cloudinary" }
+  ],
+
+  "developerTools": [
+    { "name": "Git" },
+    { "name": "GitHub" },
+    { "name": "Bitbucket" },
+    { "name": "VS Code" },
+    { "name": "Slack" },
+    { "name": "Discord" },
+    { "name": "Teams" },
+    { "name": "Jira" }
+  ]
+}

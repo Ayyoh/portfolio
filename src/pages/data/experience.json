@@ -1,0 +1,25 @@
+[
+  {
+    "role": "Junior Full-Stack Developer",
+    "company": "Maveriks",
+    "year": 2026
+  },
+
+  {
+    "role": "Intern Frontend Developer",
+    "company": "Maveriks",
+    "year": 2025
+  },
+
+  {
+    "role": "Self Learning Developer",
+    "company": "Self Taught",
+    "year": "2023"
+  },
+
+  {
+    "role": "Hello World!",
+    "company": "Wrote my first line of code",
+    "year": "2022"
+  }
+]

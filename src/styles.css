@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -27,8 +28,9 @@ body {
   --text-xs-big: 15px;
   --text-sm-big: 0.94rem;
 
-  --font-montserrat: "Montserrat Variable", sans-serif;
-  --font-oswald: "Oswald Variable", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-oswald: "Oswald", sans-serif;
+  --font-quicksand: "Quicksand", sans-serif;
 }
 
 @theme inline {
